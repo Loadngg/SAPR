@@ -1,0 +1,100 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 20" height="20mm" width="65mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+   <rect y="0" x="0" height="1500" width="2920"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="matrix(.01694472 0 0 .01694472 17.876666 -.62164025)" class="SlideGroup">
+  <g class="Slide" clip-path="url(#presentation_clip_path)">
+   <g class="Page">
+    <g class="Group">
+     <g class="com.sun.star.drawing.PolyPolygonShape">
+      <rect class="BoundingBox" height="564" width="288" y="515" x="161" fill="none"/>
+      <path d="m448 920-1 21-2 19-3 18-3 16-3 7-2 7-3 7-4 6-3 6-4 5-4 5-4 5-5 4-5 4-6 4-5 3-6 4-6 3-7 2-6 3-14 4-15 3-16 1-17 1-17-1-16-1-15-3-14-4-7-3-6-2-6-3-6-4-5-3-5-4-5-4-5-4-4-5-5-5-3-6-4-5-3-6-3-7-3-7-2-7-4-16-3-17-1-18-1-20h87v10l1 10 1 9 2 8 2 8 1 3 2 3 1 3 2 3 2 3 2 2 1 2 2 1 2 2 2 1 2 2 2 1 3 1 2 1 3 1 3 1 5 1h6l7 1 7-1h6l6-2h3l3-1 2-1 3-1 2-2 2-1 2-2 2-1 2-2 2-2 2-2 1-3 2-2 1-3 2-3 1-3 2-8 2-8 1-9v-10l1-10-1-11v-10l-1-8-1-8-1-8-2-6-2-5-1-3-1-2-1-2-2-2-2-2-1-2-5-4-5-4-5-4-7-3-7-4-7-3-66-27-11-5-9-5-9-5-8-6-7-6-6-6-5-7-3-3-2-4-2-4-2-4-4-9-3-10-2-10-2-12-1-14-1-14v-15l1-19 2-17 3-16 2-8 3-8 3-7 3-7 4-6 4-7 5-6 4-5 5-6 6-5 10-8 10-7 11-5 12-5 12-4 12-2 14-2h29l15 2 14 2 13 4 6 2 5 3 6 2 6 3 5 4 5 3 4 4 5 4 5 5 4 5 4 6 4 6 3 6 3 7 3 7 3 7 4 16 3 17 2 18 1 20h-87v-10l-1-9-1-9-2-7-1-7-3-7-1-2-1-3-2-2-1-3-2-2-2-2-2-1-2-2-2-1-2-2-2-1-2-1-3-1-2-1h-3l-3-1-6-1h-12l-5 1-3 1h-2l-3 1-2 1-3 1-2 1-2 1-2 2-2 1-2 2-2 2-2 2-1 2-2 2-2 3-1 2-1 3-2 3-2 7-1 7-1 7-1 9v25l1 7 1 6 1 6 2 5 1 4 1 2 1 2 1 2 2 2 1 2 2 1 4 4 4 3 5 3 5 3 7 3 7 3 65 27 11 5 11 6 10 6 9 6 8 7 6 7 3 4 3 3 3 4 2 4 2 5 2 4 4 10 3 11 2 12 2 14 1 14 1 16z" fill="#fff"/>
+     </g>
+     <g class="com.sun.star.drawing.PolyPolygonShape">
+      <rect class="BoundingBox" height="560" width="284" y="520" x="550" fill="none"/>
+      <path d="m833 937-1 15-2 15-3 13-4 13-2 7-3 6-3 6-4 5-4 6-4 5-8 11-5 5-6 4-5 4-6 4-5 4-6 3-7 3-6 3-6 2-7 2-14 3-15 2-15 1-15-1-15-2-14-3-7-2-6-2-7-3-6-3-6-3-6-4-5-4-6-4-5-4-5-5-9-11-4-5-4-6-3-5-3-6-3-6-3-7-4-13-3-13-1-15-1-15v-416h87v428l1 6 1 6 2 6 1 3 1 2 1 3 2 2 1 2 2 3 1 2 2 2 4 3 5 3 2 2 2 1 2 1 3 1 5 2 5 1h5l6 1 6-1h5l5-1 3-1 2-1 3-1 2-1 2-1 2-2 3-1 2-2 4-3 1-2 2-2 2-3 1-2 2-2 1-3 1-2 1-3 2-6 1-6v-6l1-7v-421h87z" fill="#fff"/>
+     </g>
+     <g class="com.sun.star.drawing.PolyPolygonShape">
+      <rect class="BoundingBox" height="554" width="283" y="521" x="951" fill="none"/>
+      <path d="m1232 689v21l-2 20-2 18-4 17-5 15-2 7-4 7-3 6-3 6-4 5-4 6-5 5-4 4-5 4-6 4-5 4-6 3-7 3-6 3-7 2-7 2-16 3-17 2-18 1h-52v217h-86v-553h138l18 1 17 2 16 3 7 2 7 2 6 3 7 3 6 3 5 4 6 4 5 4 4 4 5 5 4 6 4 5 3 6 3 6 4 7 2 7 5 16 4 16 2 19 2 19zm-99 68 2-3 1-3 3-7 2-7 1-8 2-9 1-10v-10l1-11-1-11v-10l-1-9-2-9-1-8-2-7-3-7-3-6-1-3-2-2-2-3-2-2-3-2-2-2-3-2-3-1-2-1-4-1-3-1-3-1-4-1h-4l-8-1h-49v180h49l8-1h4l4-1 3-1h3l4-2 2-1 3-1 3-2 2-2 3-2 2-2 2-2 2-3z" fill="#fff"/>
+     </g>
+     <g class="com.sun.star.drawing.PolyPolygonShape">
+      <rect class="BoundingBox" height="554" width="283" y="521" x="1339" fill="none"/>
+      <path d="m1620 689v21l-2 20-2 18-4 17-5 15-2 7-4 7-3 6-3 6-4 5-4 6-5 5-4 4-5 4-6 4-5 4-6 3-7 3-6 3-7 2-7 2-16 3-17 2-18 1h-52v217h-86v-553h138l18 1 17 2 16 3 7 2 7 2 6 3 7 3 6 3 5 4 6 4 5 4 4 4 5 5 4 6 4 5 3 6 3 6 4 7 2 7 5 16 4 16 2 19 2 19zm-99 68 2-3 1-3 3-7 2-7 1-8 2-9 1-10v-10l1-11-1-11v-10l-1-9-2-9-1-8-2-7-3-7-3-6-1-3-2-2-2-3-2-2-3-2-2-2-3-2-3-1-2-1-4-1-3-1-3-1-4-1h-4l-8-1h-49v180h49l8-1h4l4-1 3-1h3l4-2 2-1 3-1 3-2 2-2 3-2 2-2 2-2 2-3z" fill="#fff"/>
+     </g>
+     <g class="com.sun.star.drawing.PolyPolygonShape">
+      <rect class="BoundingBox" height="566" width="297" y="514" x="1707" fill="none"/>
+      <path d="m1996 640 3 28 2 35 1 43 1 51-1 50-1 43-2 35-3 28-2 12-3 11-3 11-4 10-5 9-5 9-5 9-7 8-5 5-5 6-5 5-6 4-6 5-6 4-7 3-6 3-7 3-7 2-7 2-8 2-7 1-8 1-17 1-16-1-8-1-8-1-7-2-7-2-7-2-7-3-7-3-6-3-6-4-6-5-6-4-5-5-6-6-5-5-6-8-5-9-5-9-5-10-4-10-3-11-3-11-2-12-2-13-1-15-2-35-2-43v-99l2-43 2-35 1-15 2-13 2-12 3-11 3-11 4-10 5-10 5-9 5-9 6-8 5-5 6-6 5-5 6-4 6-5 6-4 6-3 7-3 7-3 7-2 7-2 7-2 8-1 8-1 16-1 17 1 8 1 7 1 8 2 7 2 7 2 7 3 6 3 7 3 6 4 6 5 6 4 5 5 5 6 5 5 7 8 5 9 5 9 5 9 4 10 3 11 3 11zm-84 280 2-23 1-28 1-72-1-73-1-28-2-23-1-10-1-9-1-9-2-8-2-7-3-6-2-6-3-5-2-2-1-3-2-2-2-2-3-2-2-1-2-2-3-1-3-2-2-1-3-1h-3l-4-1h-3l-7-1-7 1h-3l-3 1h-3l-3 1-2 1-3 2-3 1-2 2-2 1-2 2-2 2-2 2-2 3-2 2-2 5-2 5-2 6-2 7-4 18-2 21-3 24-1 29-1 69 1 68 1 29 3 24 2 21 4 18 2 7 2 6 2 5 2 5 2 2 2 3 2 2 2 2 2 2 2 1 2 2 3 1 3 2 2 1 3 1h3l3 1h3l7 1 7-1h3l4-1h3l3-1 2-1 3-2 3-1 2-2 2-1 3-2 2-2 2-2 1-3 2-2 3-5 2-6 3-6 2-7 2-8 1-9 1-9z" fill="#fff"/>
+     </g>
+     <g class="com.sun.star.drawing.PolyPolygonShape">
+      <rect class="BoundingBox" height="554" width="301" y="520" x="2114" fill="none"/>
+      <path d="m2413 1073h-90l-73-227h-49v227h-86v-553h139l18 1 17 1 16 3 7 2 7 3 7 2 6 3 6 3 5 4 6 3 5 4 4 5 4 4 4 5 4 6 4 6 3 6 3 6 3 7 4 15 4 16 2 18 2 19v47l-2 12-1 12-2 11-3 10-3 10-3 9-4 9-4 8-6 7-6 7-6 7-7 6-8 5-9 5zm-115-327 2-6 2-7 2-7 2-7 1-8 1-9v-9l1-10-1-10v-9l-1-9-1-8-2-7-2-7-2-7-2-6-2-2-1-3-2-2-2-2-2-2-2-2-3-2-2-1-3-1-3-2h-3l-3-1-4-1h-3l-8-1h-54v170h54l8-1h3l4-1 3-1h3l3-2 3-1 2-1 3-2 2-2 2-2 2-2 2-2 1-3z" fill="#fff"/>
+     </g>
+     <g class="com.sun.star.drawing.PolyPolygonShape">
+      <rect class="BoundingBox" height="554" width="274" y="520" x="2467" fill="none"/>
+      <path d="m2740 599h-93v474h-87v-474h-93v-78h273z" fill="#fff"/>
+     </g>
+     <g class="Group">
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+       <rect class="BoundingBox" height="257" width="132" y="175" x="162" fill="none"/>
+       <path d="m293 359-1 9v9l-2 8-1 8-2 3-1 3-1 3-2 3-1 3-2 2-2 2-2 2-2 2-2 2-3 2-2 2-3 1-3 2-3 1-3 1-6 2-7 1-7 1h-15l-8-1-7-1-6-2-3-1-3-1-3-2-2-1-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-1-3-1-3-2-3-1-3-1-7-2-8v-9l-1-9h40v10l1 4 1 3 1 4v1l1 2 1 1v1l1 2 1 1h1l1 1v1l1 1h1l1 1h1l2 1h2l3 1h11l3-1h3l1-1h1l1-1 1-1h1l1-1 1-1v-1l1-1 1-1 1-1v-1l1-2v-1l1-4 1-3 1-4v-19l-1-4v-4l-1-3v-3l-1-2-1-1v-1l-1-1-1-1v-1l-1-1-2-2-2-2-3-1-3-2-3-1-4-2-30-12-4-2-5-3-4-2-3-3-3-2-3-3-3-3-1-2-1-2-1-1-1-2-1-4-1-5-2-5v-5l-1-6v-7l-1-6 1-9 1-8 1-7 1-4 2-3 1-4 1-3 2-3 2-3 2-2 2-3 2-2 3-3 4-3 5-3 5-3 5-2 6-2 6-1 6-1h13l7 1 6 1 6 2 3 1 2 1 3 1 2 2 3 1 2 2 2 1 2 2 2 2 2 3 2 2 2 3 2 3 1 3 1 3 1 4 2 7 2 7 1 9v9h-40v-9l-1-4v-3l-1-3-1-3-1-2v-1l-1-1-1-1v-1l-1-1h-1l-1-1-1-1h-1l-1-1h-1l-1-1h-1l-1-1h-14l-1 1h-2l-1 1h-1l-1 1-1 1h-1l-1 1v1l-1 1-1 1-1 1-1 1v1l-1 1v2l-1 3-1 3-1 4v15l1 3v3l1 2v3l1 2v1l1 1 1 1 1 1v1l2 1 2 2 2 1 3 2 3 1 3 1 29 12 6 3 5 2 4 3 4 3 4 3 3 3 1 2 1 2 2 2 1 1 1 2 1 2 1 5 2 5 1 5v7l1 6v7z" fill="#fff"/>
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+       <rect class="BoundingBox" height="253" width="126" y="177" x="309" fill="none"/>
+       <path d="m433 213h-42v216h-40v-216h-42v-36h124z" fill="#fff"/>
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+       <rect class="BoundingBox" height="253" width="164" y="177" x="426" fill="none"/>
+       <path d="m588 429h-41l-10-50h-59l-10 50h-41l62-252h38zm-59-86-21-105-22 105z" fill="#fff"/>
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+       <rect class="BoundingBox" height="253" width="126" y="177" x="585" fill="none"/>
+       <path d="m709 213h-42v216h-40v-216h-42v-36h124z" fill="#fff"/>
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+       <rect class="BoundingBox" height="253" width="41" y="177" x="738" fill="none"/>
+       <path d="m778 429h-40v-252h40z" fill="#fff"/>
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+       <rect class="BoundingBox" height="258" width="136" y="175" x="812" fill="none"/>
+       <path d="m943 232 2 13 1 16v20l1 23-1 22v20l-1 16-2 13v5l-2 5-1 5-2 5-2 4-2 4-3 4-3 3-2 3-2 3-3 2-3 2-2 2-3 2-3 1-3 2-3 1-3 1-4 1-3 1h-3l-4 1h-15l-4-1h-3l-3-1-4-1-3-1-3-1-3-2-3-1-3-2-2-2-3-2-2-2-3-3-2-3-3-3-2-4-3-4-2-5-1-4-2-5-1-5-1-6-1-6-1-6-1-16v-20l-1-22 1-23v-20l1-16 1-6 1-6 1-6 1-5 2-5 1-4 2-5 3-4 2-4 3-3 2-3 3-3 2-2 3-2 2-2 3-2 3-1 3-2 3-1 3-1 4-1 3-1h3l4-1h15l4 1h3l3 1 4 1 3 1 3 1 3 2 3 1 3 2 2 2 3 2 3 2 2 3 2 3 3 3 3 4 2 4 2 4 2 5 1 5 2 5zm-38 128 1-11 1-13v-65l-1-13-1-11v-4l-1-4v-4l-1-4-1-3-1-3-1-3-1-2-1-1-1-1-1-1-1-1-1-1-1-1h-1l-1-1h-1l-2-1h-1l-1-1h-12l-2 1h-1l-1 1h-1l-2 1h-1l-1 1-1 1-1 1-1 1v1l-1 1-1 2-1 3-1 2-1 4-2 8-1 9-1 11v13l-1 32 1 31v13l1 11 1 9 2 8 1 4 1 2 1 3 1 2 1 1v1l1 1 1 1 1 1 1 1h1l2 1h1l1 1h1l2 1h12l1-1h1l2-1h1l1-1h1l1-1 1-1 1-1 1-1 1-1 1-1 1-2 1-3 1-3 1-3 1-4v-4l1-4z" fill="#fff"/>
+      </g>
+      <g class="com.sun.star.drawing.PolyPolygonShape">
+       <rect class="BoundingBox" height="253" width="135" y="177" x="980" fill="none"/>
+       <path d="m1114 429h-35l-59-149v149h-40v-252h35l59 150v-150h40z" fill="#fff"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g fill="#fff">
+  <g fill="#fff" transform="translate(0,-277)">
+   <g transform="translate(.033708 .20865)">
+    <path id="rect4594" d="m6.965827 278.99228h1.2000001v1.2h-1.2000001zm-1.3997785-1.39996v3.99976h3.9997556v-3.99976zm0.7999512 0.79995h2.3998534v2.39985h-2.3998534z" stroke-width=".26458332" fill="#fff"/>
+    <path id="rect4594-3" d="m10.365804 277.59232v3.99975h3.999756v-3.99975zm1.399914 0.79995h1.199927v2.39985h-0.599963v-1.79989h-0.599964z" stroke-width=".26458332" fill="#fff"/>
+    <g fill="#ffffff">
+     <use xlink:href="#rect4594-3" transform="translate(-9.599512)" height="100%" width="100%" y="0" x="0"/>
+     <use xlink:href="#rect4594-3" transform="translate(-4.799756,4.79976)" height="100%" width="100%" y="0" x="0"/>
+     <use xlink:href="#rect4594-3" transform="translate(4.799756,4.79976)" height="100%" width="100%" y="0" x="0"/>
+     <use xlink:href="#rect4594-3" transform="translate(0,9.59952)" height="100%" width="100%" y="0" x="0"/>
+     <use xlink:href="#rect4594-3" transform="translate(4.799756,14.39928)" height="100%" width="100%" y="0" x="0"/>
+     <use xlink:href="#rect4594" transform="translate(9.599512)" height="100%" width="100%" y="0" x="0"/>
+     <use xlink:href="#rect4594" transform="translate(4.799756,4.79976)" height="100%" width="100%" y="0" x="0"/>
+     <use xlink:href="#rect4594" transform="translate(9.599512,9.59952)" height="100%" width="100%" y="0" x="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
