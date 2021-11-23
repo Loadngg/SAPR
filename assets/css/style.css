@@ -209,6 +209,7 @@ button:hover {
 
 /* Study */
 .study {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -221,6 +222,7 @@ button:hover {
 
 .study__inner {
     margin-bottom: 15px;
+    overflow: visible;
 }
 
 .study__block {
@@ -282,6 +284,50 @@ button:hover {
 
 .btn--red:hover {
     background-color:rgba(153, 50, 50, 0.65);
+}
+
+/* Overflow */
+.overflow {
+    display: none;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    justify-content: center; 
+    z-index: 10000;
+}
+
+.overflow.active {
+    display: flex;
+    justify-content: center;
+}
+
+.overflow .container {
+    opacity: 0;
+    transition: opacity 500ms linear;
+}
+
+.overflow.active .container {
+    opacity: 1;
+}
+
+.overflow__frame {
+    width: 1280px;
+    height: 720px;
+    border: none;
+}
+
+.overflow__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    opacity: .7;
 }
 
 /* Slick slider */
@@ -884,7 +930,7 @@ a#partner-krtex {
     }
 
     .library__inner {
-        padding: 0 5px;
+        padding: 0 10px;
     }
 
     .footer {

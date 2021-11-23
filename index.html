@@ -17,7 +17,7 @@
     <title>Кафедра "САПР" – ТГТУ</title>
 </head>
 <body>
-    
+
 <!-- Header -->
 <header class="header">
     <div class="container">
@@ -66,13 +66,31 @@
                     <h2 class="study__uptitle">Чтобы в первый день не потеряться на кафедре -</h2>
                     <h1 class="study__title">ИССЛЕДУЙТЕ ЕЁ ПРЯМО СЕЙЧАС!</h1>
                     <div class="study__btns">
-                        <button class="study__btn btn--red" tooltip-text="Запись демонстрации 3D-модели кафедры">ВИДЕОРОЛИК</button>
-                        <button class="study__btn btn--blue" tooltip-text="Прямой доступ к 3D-модели кафедры онлайн">ИССЛЕДОВАТЬ!</button>
+                        <button id="youtube" class="study__btn btn--red" tooltip-text="Запись демонстрации 3D-модели кафедры" onclick="showOverflow('youtube-overflow')">ВИДЕОРОЛИК</button>
+                        <button class="study__btn btn--blue" tooltip-text="Прямой доступ к 3D-модели кафедры онлайн" onclick="showOverflow('model-overflow')">ИССЛЕДОВАТЬ!</button>
                     </div>
-                </div>
+                </div>                
             </div>
         </div>
     </section>
+
+    <div class="overflow" id="youtube-overflow">
+        <div class="container">
+            <iframe class="overflow__frame" allowfullscreen src="https://www.youtube.com/embed/PAlr8FL23XU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <div class="overflow__close" id="youtube-close" onclick="hideOverflow()">
+                <img src="assets/img/close.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="overflow" id="model-overflow">
+        <div class="container">
+            <iframe class="overflow__frame" allowfullscreen src="https://3dwarehouse.sketchup.com/embed.html?mid=975e39ba-792e-46b3-9f85-5176c4a11063" frameborder="0" scrolling="no"></iframe>
+            <div class="overflow__close" id="model-close" onclick="hideOverflow()">
+                <img src="assets/img/close.svg" alt="">
+            </div>
+        </div>
+    </div>
 
     <section class="slider__block" id="slider">
         <h2 class="slider__uptitle">ПРЕДПРИЯТИЯ ПАРТНЕРЫ</h2>
@@ -99,11 +117,20 @@
             <div class="container">
                 <div class="library__inner">
                     <h1 class="library__title">Для вашего удобства мы собрали список литературы, с которой вам придётся столкнуться во время обучения</h1>
-                    <button class="library__btn">БИБЛИОТЕКА</button>
+                    <button class="library__btn" onclick="showOverflow('library-overflow')">БИБЛИОТЕКА</button>
                 </div>
             </div>
         </div>
     </section>
+
+    <div class="overflow" id="library-overflow">
+        <div class="container">
+            <iframe class="overflow__frame" src="library.html" frameborder="0"></iframe>
+            <div class="overflow__close" id="youtube-close" onclick="hideOverflow()">
+                <img src="assets/img/close.svg" alt="">
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Footer -->
