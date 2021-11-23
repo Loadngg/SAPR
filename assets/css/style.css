@@ -295,7 +295,7 @@ button:hover {
     right: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     flex-direction: column;
     justify-content: center; 
@@ -518,6 +518,12 @@ a#partner-krtex {
 }
 
 /* Media */
+@media (max-width: 1450px) {
+    .overflow__frame {
+        width: 960px;
+        height: 540px;
+    }
+}
 @media (max-width: 1200px) {
     .header__inner {
         padding: 0 20px;
@@ -540,6 +546,11 @@ a#partner-krtex {
     .study__btn,
     .library__btn {
         font-size: 35px;
+    }
+
+    .overflow__frame {
+        width: 854px;
+        height: 480px;
     }
 
     .partner-link {
@@ -586,6 +597,15 @@ a#partner-krtex {
 }
 
 @media (max-width: 860px) {
+    .overflow__frame {
+        width: 640px;
+        height: 360px;
+    }
+
+    .overflow__frame--lib {
+        height: 650px !important;
+    }
+
     .intro__title,
     .intro__info button,
     .study__title {
@@ -714,6 +734,11 @@ a#partner-krtex {
         top: -90px;
     }
 
+    .overflow__frame {
+        width: 528px;
+        height: 297px;
+    }
+
     .slider__block {
         height: 300px;
     }
@@ -784,6 +809,11 @@ a#partner-krtex {
 
     .btn__subtitle {
         font-size: 25px;
+    }
+
+    .overflow__frame {
+        width: 400px;
+        height: 225px;
     }
 
     .slider__block {
@@ -892,6 +922,11 @@ a#partner-krtex {
 
     .btn--blue::before {
         top: -73px;
+    }
+
+    .overflow__frame {
+        width: 272px;
+        height: 153px;
     }
 
     .intro__inner {
