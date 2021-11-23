@@ -13,12 +13,14 @@ $(document).ready(function(){
 
 // Disable scrolling
 function disableScroll(){
+    $('body').bind('touchmove', function(e){e.preventDefault()})
     var x=window.scrollX;
     var y=window.scrollY;
     window.onscroll=function(){window.scrollTo(x, y);};
 }
 
 function enableScroll(){
+    $('body').unbind('touchmove')
     window.onscroll=function(){};
 }
 
