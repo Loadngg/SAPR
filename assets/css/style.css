@@ -596,14 +596,10 @@ a#partner-krtex {
     }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 860px){
     .overflow__frame {
         width: 640px;
         height: 360px;
-    }
-
-    .overflow__frame--lib {
-        height: 650px !important;
     }
 
     .intro__title,
@@ -670,6 +666,12 @@ a#partner-krtex {
     .footer {
         font-size: 0.6em;
         height: 100px;
+    }
+}
+
+@media (max-width: 860px) and (orientation: portrait) {
+    .overflow__frame--lib {
+        height: 650px !important;
     }
 }
 
