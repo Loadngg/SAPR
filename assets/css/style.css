@@ -287,9 +287,16 @@ button:hover {
 }
 
 /* Overflow */
-.overflow {
-    display: none;
+.hidden {
+    display: none !important;
+}
 
+.transparent {
+    opacity: 0 !important;
+}
+
+.overflow {
+    display: flex;
     position: fixed;
     top: 0;
     right: 0;
@@ -298,22 +305,11 @@ button:hover {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     flex-direction: column;
+    align-items: center;
     justify-content: center; 
     z-index: 10000;
-}
 
-.overflow.active {
-    display: flex;
-    justify-content: center;
-}
-
-.overflow .container {
-    opacity: 0;
-    transition: opacity 500ms linear;
-}
-
-.overflow.active .container {
-    opacity: 1;
+    transition: opacity 500ms ease-in-out;
 }
 
 .overflow__frame {
@@ -323,6 +319,8 @@ button:hover {
 }
 
 .overflow__close {
+    width: 50px;
+    height: 50px;
     position: absolute;
     right: 10px;
     top: 10px;
@@ -330,12 +328,16 @@ button:hover {
     opacity: .7;
 }
 
+.overflow__close:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
 /* Slick slider */
 .slider__block {
     width: 100%;
     max-width: inherit;
     background: #2c2a72;
-    height: 600px;
+    height: 520px;
 }
 
 .slider__uptitle {
@@ -602,6 +604,10 @@ a#partner-krtex {
         height: 360px;
     }
 
+    .overflow__frame--lib {
+        height: 565px !important;
+    }
+
     .intro__title,
     .intro__info button,
     .study__title {
@@ -666,12 +672,6 @@ a#partner-krtex {
     .footer {
         font-size: 0.6em;
         height: 100px;
-    }
-}
-
-@media (max-width: 860px) and (orientation: portrait) {
-    .overflow__frame--lib {
-        height: 650px !important;
     }
 }
 
@@ -777,7 +777,7 @@ a#partner-krtex {
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 520px) {    
     .header__contacts {
         font-size: .8em;
     }
@@ -896,7 +896,6 @@ a#partner-krtex {
 
     .study__uptitle,
     .library__title {
-        font-size: 15px;
         padding-bottom: 10px;
     }
 
@@ -972,5 +971,38 @@ a#partner-krtex {
 
     .footer {
         height: 150px;
+    }
+}
+
+@media (max-width: 330px) {
+    .header__logo {
+        width: 100px;
+    }
+
+    .intro__uptitle {
+        font-size: 12px;
+    }
+
+    .intro__title {
+        font-size: 20px;
+    }
+
+    .study__uptitle {
+        height: auto;
+        line-height: 1;
+    }
+
+    .study__title {
+        font-size: 20px;
+    }
+
+    .overflow__frame--lib {
+        height: 400px !important;
+    }
+}
+
+@media (max-height: 650px) {
+    .intro {
+        height: 100vh;
     }
 }

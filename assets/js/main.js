@@ -11,16 +11,40 @@ $(document).ready(function(){
     });
 });
 
+// Disable scrolling
+function disableScroll(){
+    var x=window.scrollX;
+    var y=window.scrollY;
+    window.onscroll=function(){window.scrollTo(x, y);};
+}
+
+function enableScroll(){
+    window.onscroll=function(){};
+}
+
 // overflow
+let currentOverlayId = null;
+
 function showOverflow(blockId) {
     currBlockId = blockId;
     let block = document.getElementById(currBlockId);
-    block.classList.add('active'); 
+    disableScroll();
+    block.classList.remove('hidden'); 
+    setTimeout(function(){
+        block.classList.remove('transparent')
+    }, 20)
 };
 
 function hideOverflow() {
+    if (currBlockId === null)
+        return;
     let block = document.getElementById(currBlockId);
     let iframe = block.firstElementChild.firstElementChild;
-    block.classList.remove('active');
-    iframe.src = iframe.src;
+    enableScroll();
+    block.classList.add('transparent'); 
+    setTimeout(function(){
+        block.classList.add('hidden')
+        iframe.src = iframe.src;
+    }, 500);
+    currBlockId = null;
 }
