@@ -436,7 +436,7 @@ a#partner-skobeev {
 
 a#partner-ascon {
     background-image: url("../img/logo/logo-ascon.png");
-    background-position: center 80px;
+    background-position: center 77px;
     width: 400px;
 }
 
@@ -525,7 +525,33 @@ a#partner-krtex {
         width: 960px;
         height: 540px;
     }
+
+    .partner-link {
+        width: 270px;
+    }
+
+    a#partner-snowmedia {
+        width: 270px;
+    }
+    
+    a#partner-ascon {
+        background-position: center 100px;
+        width: 270px;
+    }
+    
+    a#partner-demis {
+        width: 270px;
+    }
+
+    .slider .slick-arrow.slick-arrow.slick-next {
+        right: 0;
+    }
+
+    .slider .slick-arrow.slick-prev {
+        left: 0;
+    }
 }
+
 @media (max-width: 1200px) {
     .header__inner {
         padding: 0 20px;
@@ -578,14 +604,6 @@ a#partner-krtex {
 
     .slider__uptitle {
         padding: 40px 0 20px;
-    }
-    
-    .slider .slick-arrow.slick-arrow.slick-next {
-        right: 0;
-    }
-
-    .slider .slick-arrow.slick-prev {
-        left: 0;
     }
 
     .library__uptitle {

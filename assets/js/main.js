@@ -12,11 +12,11 @@ $(document).ready(function(){
 });
 
 // overflow
-let currentOverlayId = null;
-
 function showOverflow(blockId) {
     currBlockId = blockId;
-    let block = document.getElementById(currBlockId);
+    block = document.getElementById(currBlockId);
+    iframe = block.firstElementChild.firstElementChild;
+    iframe.src = iframe.dataset.src;
     block.classList.remove('hidden'); 
     setTimeout(function(){
         block.classList.remove('transparent')
@@ -24,14 +24,9 @@ function showOverflow(blockId) {
 };
 
 function hideOverflow() {
-    if (currBlockId === null)
-        return;
-    let block = document.getElementById(currBlockId);
-    let iframe = block.firstElementChild.firstElementChild;
     block.classList.add('transparent'); 
     setTimeout(function(){
         block.classList.add('hidden')
-        iframe.src = iframe.src;
+        iframe.src = "about:blank";
     }, 500);
-    currBlockId = null;
 }
