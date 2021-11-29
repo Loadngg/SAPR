@@ -1,3 +1,15 @@
+let detect = new MobileDetect(window.navigator.userAgent)
+$(document).ready(function () {
+    if (detect.mobile() != null) {
+        function reorient(e) {
+          var portrait = (window.orientation % 180 == 0);
+          $("body").css("-webkit-transform", !portrait ? "rotate(-90deg)" : "");
+        }
+        window.onorientationchange = reorient;
+        window.setTimeout(reorient, 0);
+    }
+});
+
 // slider
 $(document).ready(function(){
     $('.slider').slick({
